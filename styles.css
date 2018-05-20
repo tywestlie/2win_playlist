@@ -1,0 +1,90 @@
+body {
+  background-color: #dfe8ee;
+}
+
+nav {
+  display: block;
+  background-color:#353a4c;
+  height: 125px
+}
+
+.login a {
+  float:right;
+  text-decoration: none;
+  color: #4df5ff;
+}
+
+header {
+  height: 75px;
+}
+
+article {
+  display: grid;
+  width: 90vw;
+  height: 100vh;
+  padding: 20px;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
+  grid-gap: 10px;
+  justify-content: start;
+}
+
+.links a {
+  padding-top: 90px;
+  color: white;
+  text-decoration: none;
+}
+footer {
+  height: 400px;
+}
+
+section {
+  border: 2px solid black;
+  background-color: white;
+  overflow-wrap: normal;
+}
+
+.content {
+  height: inherit;
+  width: inherit;
+}
+
+.user1 {
+  grid-column: 1 / 4 ;
+  grid-row: 1 / 2;
+}
+
+.user2 {
+  grid-column: 2 / 4 ;
+  grid-row: 1 / 2;
+}
+
+.user3 {
+  grid-column: 3 / 4 ;
+  grid-row: 1 / 2;
+}
+
+.user4 {
+  grid-column: 4 / 4 ;
+  grid-row: 1 / 2;
+}
+
+.user5 {
+  grid-column: 1 / 4 ;
+  grid-row: 2 / 2;
+}
+
+.user6 {
+  grid-column: 2 / 4 ;
+  grid-row: 2 / 2;
+}
+
+.user7 {
+  grid-column: 3 / 4 ;
+  grid-row: 2 / 2;
+}
+
+.user8 {
+  grid-column: 4 / 4 ;
+  grid-row: 2 / 2;
+}
