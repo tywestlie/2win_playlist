@@ -22,7 +22,7 @@ article {
   display: grid;
   width: 90vw;
   height: 100vh;
-  padding: 20px;
+  margin: auto;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(2, 50%);
   grid-gap: 10px;
@@ -39,12 +39,20 @@ footer {
 }
 
 section {
+  display: flex;
   border: 2px solid black;
   background-color: white;
   overflow-wrap: normal;
+  margin: auto;
 }
 
-.content {
+div .section-head {
+  background-image: url('https://www.theselfemployed.com/wp-content/uploads/2012/04/bigstock-Successful-business-man-agains-12152636.jpg');
+}
+
+div .content {
+  margin: inherit;
+  padding: inherit;
   height: inherit;
   width: inherit;
 }
